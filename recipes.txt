@@ -10,6 +10,7 @@
 1 2x_silver_cable (assembler_ulv+circuit_24): 1 2x_silver_wire, 144 molten_rubber
 1 2x_silver_wire (wiremill_ulv+circuit_2): 1 silver_ingot
 1 4x_electrum_wire (wiremill_ulv+circuit_4): 2 electrum_ingot
+1 advanced_alloy (bending_machine+circuit_1): 1 mixed_metal_ingot
 1 advanced_assembling_machine_ii (shaped_crafting): 2 robot_arm_(hv), 2 advanced_circuit, 2 conveyor_module_(hv), 1 hv_machine_hull, 2 1x_gold_cable
 1 advanced_chemical_bath (shaped_crafting): 2 conveyor_module_(mv), 2 glass, 1 1x_copper_cable, 1 electric_pump_(mv), 2 good_electronic_circuit, 1 mv_machine_hull
 1 advanced_circuit (circuit_assembler_lv): 1 good_integrated_circuit, 2 integrated_logic_circuit_(cut_wafer), 2 random_access_memory_chip, 4 transistor, 8 fine_electrum_wire 8 annealed_copper_bolt, 144 molten_tin
@@ -86,11 +87,13 @@
 4 iron_bolt (cutting_machine_ulv): 1 iron_rod
 1 iron_dust (macerator_ulv): 1 iron_ingot
 1000 iron_iii_chloride (chemical_reactor_lv): 1 iron_dust, 3 empty_cell, 3000 hydrochloric_acid
+1 iron_plate (bending_machine_lv+circuit_1): 1 iron_ingot
 1 iron_rod (lathe_lv): 1 iron_ingot
 1 iron_screw (lathe_ulv): 1 iron_bolt
 1 long_stainless_steel_rod (shaped_crafting): 2 stainless_steel_rod
 1 magnetic_steel_rod (electromagnetic_polarizer_lv): 1 steel_rod
 1 mainframe (circuit_assembler_hv+cleanroom): 2 aluminium_frame_box, 2 workstation, 12 small_coil, 24 capacitator, 16 random_access_memory_chip, 24 1x_annealed_copper_wire, 576 molten_tin
+1 mixed_metal_ingot (assembler_lv+circuit_3): 1 iron_plate, 1 bronze_plate, 1 zinc_plate
 144 molten_glass (fluid_extractor_mv): 1 sand
 144 molten_red_alloy (fluid_extractor_lv): 1 red_alloy_ingot
 144 molten_rubber (fluid_extractor_lv): 1 rubber_bar
@@ -116,6 +119,9 @@
 1 red_alloy_ring (shaped_crafting+hammer+file): 1 red_alloy_rod
 1 red_alloy_rod (lathe_lv): 1 red_alloy_ingot
 3 redstone_alloy_dust (mixer_ulv+circuit_2): 1 redstone, 1 raw_silicon_dust, 1 coal_dust
+4 reinforced_glass (alloy_smelter_ulv): 1 advanced_alloy, 3 glass
+1 reinforced_glass_lens (lathe_lv): 1 reinforced_glass_plate
+2 reinforced_glass_plate (cutting_machine_lv): 1 reinforced_glass
 8 resistor (assembler_lv+circuit_5): 1 carbon_dust, 4 fine_annealed_copper_wire, 4 1x_annealed_copper_wire, 288 refined_glue
 1 robot_arm_(hv) (assembler_lv): 2 electric_motor_(hv), 1 electric_piston_(hv), 2 stainless_steel_rod, 1 advanced_circuit, 3 1x_gold_cable
 1 rubber_ring (fluid_solidifier_lv+ring_mold): 36 molten_rubber
@@ -151,3 +157,4 @@
 64 wood_plank (assembler_lv+circuit_2): 64 wood_pulp, 144 refined_glue
 6 wood_pulp (macerator_ulv): 1 wood
 1 workstation (circuit_assembler_mv+cleanroom): 1 plastic_circuit_board, 2 processor_assembly, 4 diode, 8 random_access_memory_chip, 16 fine_electrum_wire, 16 blue_alloy_bolt, 288 molten_tin
+1 zinc_plate (bending_machine_lv+circuit_1): 1 zinc_ingot
