@@ -12,7 +12,7 @@
 1 4x_electrum_wire (wiremill_ulv+circuit_4): 2 electrum_ingot
 1 advanced_assembling_machine_ii (shaped_crafting): 2 robot_arm_(hv), 2 advanced_circuit, 2 conveyor_module_(hv), 1 hv_machine_hull, 2 1x_gold_cable
 1 advanced_chemical_bath (shaped_crafting): 2 conveyor_module_(mv), 2 glass, 1 1x_copper_cable, 1 electric_pump_(mv), 2 good_electronic_circuit, 1 mv_machine_hull
-1 advanced_circuit (circuit_assembler_lv): 1 good_integrated_circuit, 2 integrated_logic_circuit, 2 random_access_memory_chip, 4 transistor, 8 fine_electrum_wire 8 annealed_copper_bolt, 144 molten_tin
+1 advanced_circuit (circuit_assembler_lv): 1 good_integrated_circuit, 2 integrated_logic_circuit_(cut_wafer), 2 random_access_memory_chip, 4 transistor, 8 fine_electrum_wire 8 annealed_copper_bolt, 144 molten_tin
 4 aluminium_foil (bending_machine_lv+circuit_10): 1 aluminium_ingot
 1 aluminium_frame_box (assembler_ulv+circuit_4): 4 aluminium_rod
 1 aluminium_plate (bending_machine_lv+circuit_1): 1 aluminium_ingot
@@ -79,8 +79,8 @@
 1 hard_wall_(tier_4) (chemical_bath_mv): 1 energetic_alloy_frame_box, 144 wet_concrete
 1 hv_machine_casing (assembler_lv+circuit_8): 8 stainless_steel_plate
 1 hv_machine_hull (assembler_lv): 2 1x_gold_cable, 1 hv_machine_casing, 288 molten_polyethylene
-1 integrated_logic_circuit (circuit_assembler_lv): 1 circuit_board, 1 integrated_logic_circuit, 2 resistor, 2 diode, 2 fine_copper_wire, 2 tin_bolt, 144 molten_tin
-8 integrated_logic_circuit (cutting_machine_mv): 1 integrated_logic_circuit_(wafer)
+1 integrated_logic_circuit (circuit_assembler_lv): 1 circuit_board, 1 integrated_logic_circuit_(cut_wafer), 2 resistor, 2 diode, 2 fine_copper_wire, 2 tin_bolt, 144 molten_tin
+8 integrated_logic_circuit_(cut_wafer) (cutting_machine_mv): 1 integrated_logic_circuit_(wafer)
 1 integrated_logic_circuit_(wafer) (laser_engraver_mv+red_lens): 1 wafer
 1 integrated_processor (circuit_assembler_mv+cleanroom): 1 plastic_circuit_board, 1 central_processing_unit, 4 resistor, 4 capacitator, 4 transistor, 4 fine_red_alloy_wire, 144 molten_tin
 4 iron_bolt (cutting_machine_ulv): 1 iron_rod
