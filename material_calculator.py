@@ -1,3 +1,4 @@
+import sys
 from functools import reduce
 
 
@@ -75,7 +76,16 @@ def search_recipes(quantity_to_search, item_to_search):
 
 # ask for recipe and quantity
 item_to_craft = str(input('\nInput item to craft: '))
-quantity_to_craft = float(input('Input quantity: '))
+try:
+    quantity_to_craft = float(input('Input quantity: '))
+
+    if quantity_to_craft < 1 or quantity_to_craft > 999999999:
+        raise ValueError
+
+except ValueError:
+    print("\nPlease enter a valid number (1 ~ 999 999 999)")
+    sys.exit(1)
+
 
 # prints crafting process
 print('\nCrafting process:')
@@ -87,7 +97,12 @@ raw_materials_list_sum = reduce(lambda acc, x: acc.update({x.name: acc.get(x.nam
 raw_materials_list_sum = [(quantity, name) for name, quantity in raw_materials_list_sum.items()]
 raw_materials_list_sum = sorted(raw_materials_list_sum, reverse=True)
 
+# not found item
+if raw_materials_list_sum[0][1] == item_to_craft:
+    print("Item not found")
+
 # prints all raw materials
-print('\nRaw materials:')
-for material in raw_materials_list_sum:
-    print(f'{material[0]} {material[1]}')
+else:
+    print('\nRaw materials:')
+    for material in raw_materials_list_sum:
+        print(f'{material[0]} {material[1]}')
