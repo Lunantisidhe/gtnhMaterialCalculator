@@ -36,7 +36,7 @@ def search_recipes(quantity_to_search, item_to_search):
         for line in lines:
             # cuts the line into its desired parts
             head, body = line.split(':')
-            base_quantity_name, place = head.split(' (', 1)
+            base_quantity_name, place = head.split(' [')
             base_quantity, name = base_quantity_name.split(' ', 1)
 
             # if it finds the recipe, it saves it and searches the recipes for the materials
@@ -63,7 +63,7 @@ def search_recipes(quantity_to_search, item_to_search):
 
                 # prints the item
                 item = Item(new_quantity, name, place, materials)
-                print(f'{int(item.quantity)} {f'[Actual required quantity: {quantity}]' * (quantity != new_quantity)}'
+                print(f'{int(item.quantity)} {f'(Actual required quantity: {quantity})' * (quantity != new_quantity)}'
                       f'{item.name} {item.place}: {', '.join(' '.join(map(str, m)) for m in materials)}')
 
         if is_raw:
