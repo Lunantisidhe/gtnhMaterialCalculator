@@ -30,16 +30,21 @@ def search_recipes(quantity_to_search, item_to_search):
         quantity, item = stack.pop()
         is_raw = True
 
-        with open("recipes.txt", "r") as file:
+        with open('recipes.txt', 'r') as file:
             lines = file.readlines()
 
         for line in lines:
+            # cuts the line into its desired parts
+            head, body = line.split(':')
+            base_quantity_name, place = head.split(' (', 1)
+            base_quantity, name = base_quantity_name.split(' ', 1)
+
             # if it finds the recipe, it saves it and searches the recipes for the materials
-            if line.split()[1] == item:
+            if name == item:
                 is_raw = False
 
-                head, body = line.split(':')
-                base_quantity, name, place = head.split(' ')
+                place = '(' + place
+
                 base_quantity = float(base_quantity)
                 new_quantity = float(quantity)
 
@@ -54,13 +59,12 @@ def search_recipes(quantity_to_search, item_to_search):
 
                 # searches materials recipes
                 for material_quantity in materials:
-                    stack.append((material_quantity[0], material_quantity[1]))
+                    stack.append((material_quantity[0], ' '.join(material_quantity[1:])))
 
                 # prints the item
                 item = Item(new_quantity, name, place, materials)
-                if quantity != new_quantity:
-                    print('(Real required quantity: ' + str(quantity) + ') ', end='')
-                print(item)
+                print(f'{int(item.quantity)} {f'[Actual required quantity: {quantity}]' * (quantity != new_quantity)}'
+                      f'{item.name} {item.place}: {', '.join(' '.join(map(str, m)) for m in materials)}')
 
         if is_raw:
             item = RawItem(quantity, item)
@@ -74,7 +78,7 @@ item_to_craft = str(input('\nInput item to craft: '))
 quantity_to_craft = float(input('Input quantity: '))
 
 # prints crafting process
-print("\nCrafting process:")
+print('\nCrafting process:')
 raw_materials = search_recipes(quantity_to_craft, item_to_craft)
 
 # sum all raw materials
@@ -84,6 +88,6 @@ raw_materials_list_sum = [(quantity, name) for name, quantity in raw_materials_l
 raw_materials_list_sum = sorted(raw_materials_list_sum, reverse=True)
 
 # prints all raw materials
-print("\nRaw materials:")
+print('\nRaw materials:')
 for material in raw_materials_list_sum:
-    print(material)
+    print(f'{material[0]} {material[1]}')
