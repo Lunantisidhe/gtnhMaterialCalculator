@@ -76,11 +76,11 @@
 1 gold dust [macerator ulv]: 1 gold ingot
 4 gold foil [bending machine lv + circuit 10]: 1 gold ingot
 1 good circuit board [chemical reactor lv]: 1 phenolic circuit board, 4 gold foil, 200 sodium persulfate
-1 good integrated circuit [circuit assembler lv]: 1 good circuit board, 2 integrated logic circuit, 4 resistor, 4 diode, 4 fine gold wire, 4 silver bolt, 144 molten tin
+1 good integrated circuit [circuit assembler lv]: 1 good circuit board, 2 integrated logic circuit (chip), 4 resistor, 4 diode, 4 fine gold wire, 4 silver bolt, 144 molten tin
 1 hard wall (tier 4) [chemical bath mv]: 1 energetic alloy frame box, 144 wet concrete
 1 hv machine casing [assembler lv + circuit 8]: 8 stainless steel plate
 1 hv machine hull [assembler lv]: 2 1x gold cable, 1 hv machine casing, 288 molten polyethylene
-1 integrated logic circuit [circuit assembler lv]: 1 circuit board, 1 integrated logic circuit (cut wafer), 2 resistor, 2 diode, 2 fine copper wire, 2 tin bolt, 144 molten tin
+1 integrated logic circuit (chip) [circuit assembler lv]: 1 circuit board, 1 integrated logic circuit (cut wafer), 2 resistor, 2 diode, 2 fine copper wire, 2 tin bolt, 144 molten tin
 8 integrated logic circuit (cut wafer) [cutting machine mv]: 1 integrated logic circuit (wafer)
 1 integrated logic circuit (wafer) [laser engraver mv + red lens]: 1 wafer
 1 integrated processor [circuit assembler mv + cleanroom]: 1 plastic circuit board, 1 central processing unit, 4 resistor, 4 capacitator, 4 transistor, 4 fine red alloy wire, 144 molten tin
