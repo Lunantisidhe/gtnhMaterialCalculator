@@ -3,23 +3,23 @@ from functools import reduce
 
 
 class Item:
-    def __init__(self, quantity, name, place, materials):
+    def __init__(self, quantity, actual_quantity, name, place, materials):
         self.quantity = quantity
+        self.actual_quantity = actual_quantity
         self.name = name
         self.place = place
         self.materials = materials
 
     def __str__(self):
-        return f'{int(self.quantity)} {self.name} {self.place}: {self.materials}'
+        return (f'{int(self.quantity)} {f'(Actual required quantity: {self.quantity}) ' 
+                * (self.quantity != self.actual_quantity)}{self.name} {self.place}: '
+                f'{', '.join(' '.join(map(str, m)) for m in self.materials)}')
 
 
 class RawItem:
     def __init__(self, quantity, name):
         self.quantity = quantity
         self.name = name
-
-    def __str__(self):
-        return f'{int(self.quantity)} raw {self.name}'
 
 
 # search the base recipe
@@ -44,7 +44,7 @@ def search_recipes(quantity_to_search, item_to_search):
             if name == item:
                 is_raw = False
 
-                place = '(' + place
+                place = '[' + place
 
                 base_quantity = float(base_quantity)
                 new_quantity = float(quantity)
@@ -63,9 +63,7 @@ def search_recipes(quantity_to_search, item_to_search):
                     stack.append((material_quantity[0], ' '.join(material_quantity[1:])))
 
                 # prints the item
-                item = Item(new_quantity, name, place, materials)
-                print(f'{int(item.quantity)} {f'(Actual required quantity: {quantity})' * (quantity != new_quantity)}'
-                      f'{item.name} {item.place}: {', '.join(' '.join(map(str, m)) for m in materials)}')
+                print(Item(new_quantity, quantity, name, place, materials))
 
         if is_raw:
             item = RawItem(quantity, item)
