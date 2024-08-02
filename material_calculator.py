@@ -11,7 +11,7 @@ class Item:
         self.materials = materials
 
     def __str__(self):
-        return (f'{int(self.quantity)} {f'(Actual required quantity: {self.quantity}) ' 
+        return (f'{int(self.quantity)} {f'(Actual required quantity: {int(self.actual_quantity)}) ' 
                 * (self.quantity != self.actual_quantity)}{self.name} {self.place}: '
                 f'{', '.join(' '.join(map(str, m)) for m in self.materials)}')
 

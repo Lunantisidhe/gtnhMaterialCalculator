@@ -84,7 +84,7 @@
 8 integrated logic circuit (cut wafer) [cutting machine mv]: 1 integrated logic circuit (wafer)
 1 integrated logic circuit (wafer) [laser engraver mv + red lens]: 1 wafer
 1 integrated processor [circuit assembler mv + cleanroom]: 1 plastic circuit board, 1 central processing unit, 4 resistor, 4 capacitator, 4 transistor, 4 fine red alloy wire, 144 molten tin
-8 iron bolt [extruder mv + bolt shapev]: 1 iron ingot
+8 iron bolt [extruder mv + bolt shape]: 1 iron ingot
 1 iron dust [macerator ulv]: 1 iron ingot
 1000 iron iii chloride [chemical reactor lv]: 1 iron dust, 3 empty cell, 3000 hydrochloric acid
 1 iron plate [bending machine lv + circuit 1]: 1 iron ingot
