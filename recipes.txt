@@ -10,11 +10,11 @@
 1 advanced alloy [compressor ulv]: 1 mixed metal ingot
 1 advanced assembling machine ii [shaped crafting]: 2 robot arm (hv), 2 advanced circuit, 2 conveyor module (hv), 1 hv machine hull, 2 1x gold cable
 1 advanced chemical bath [shaped crafting]: 2 conveyor module (mv), 2 glass, 1 1x copper cable, 1 electric pump (mv), 2 good electronic circuit, 1 mv machine hull
-1 advanced circuit [circuit assembler lv]: 1 good integrated circuit, 2 integrated logic circuit (cut wafer), 2 random access memory chip, 4 transistor, 8 fine electrum wire, 8 annealed copper bolt, 144 molten tin
+1 advanced circuit [circuit assembler lv]: 1 good integrated circuit, 2 integrated logic circuit (cut wafer), 2 random access memory chip, 4 transistor, 8 fine electrum wire, 8 annealed copper bolt, 72 molten soldering alloy
 1 aluminium frame box [assembler ulv + circuit 4]: 4 aluminium rod
 1 aluminium plate [bending machine lv + circuit 1]: 1 aluminium ingot
 1 annealed copper ingot [arc furnace lv]: 1 copper ingot, 63 oxygen gas
-1 basic dehydrator i [shaped crafting]: 2 fine red alloy wire, 1 good integrated circuit, 2 4x copper cable, 1 mv machine hull, 2 steel gear, 1 robot arm (mv)
+1 basic dehydrator i [shaped crafting]: 2 fine red alloy wire, 1 good electronic circuit, 2 4x copper cable, 1 mv machine hull, 2 steel gear, 1 robot arm (mv)
 1 block of diamond [compressor ulv]: 9 diamond
 1 block of nether star [compressor ulv]: 9 nether star
 1 blue alloy ingot [alloy smelter lv]: 1 silver ingot, 4 electrotine
@@ -36,7 +36,7 @@
 1 electric piston (hv) [assembler lv]: 1 electric motor (hv), 3 stainless steel plate, 2 stainless steel rod, 2 1x gold cable, 1 small stainless steel gear
 1 electric piston (mv) [assembler lv]: 1 electric motor (mv), 3 aluminium plate, 2 aluminium rod, 2 1x copper cable, 1 small aluminium gear
 1 electric pump (mv) [assembler lv]: 1 electric motor (mv), 2 rubber ring, 1 bronze rotor, 1 bronze screw, 1 1x copper cable, 1 steel fluid pipe
-1 electronic circuit [circuit assembler lv]: 1 circuit board, 2 resistor, 2 1x red alloy wire, 2 vacuum tube, 144 molten tin
+1 electronic circuit [circuit assembler lv]: 1 circuit board, 2 resistor, 2 1x red alloy wire, 2 vacuum tube, 72 molten soldering alloy
 1 electrotine [mixer ulv + circuit 1]: 1 electrum dust, 1 redstone
 1 energetic alloy frame box [assembler ulv + circuit 4]: 4 energetic alloy rod
 1 energetic alloy ingot [blast furnace mv + kanthal coil + circuit 1]: 1 energetic alloy dust
@@ -47,32 +47,33 @@
 1 glass tube [fluid solidifier lv + ball mold]: 144 molten glass
 1 gold dust [macerator ulv]: 1 gold ingot
 1 good circuit board [chemical reactor lv]: 1 phenolic circuit board, 4 gold foil, 200 sodium persulfate
-1 good integrated circuit [circuit assembler lv]: 1 good circuit board, 2 integrated logic circuit (chip), 4 resistor, 4 diode, 4 fine gold wire, 4 silver bolt, 144 molten tin
+1 good electronic circuit [circuit assembler lv]: 1 good circuit board, 2 electronic circuit, 2 diode, 2 1x copper wire, 72 molten soldering alloy
+1 good integrated circuit [circuit assembler lv]: 1 good circuit board, 2 integrated logic circuit (chip), 4 resistor, 4 diode, 4 fine gold wire, 4 silver bolt, 72 molten soldering alloy
 1 hard wall (tier 4) [chemical bath mv]: 1 energetic alloy frame box, 144 wet concrete
 1 hv machine casing [assembler lv + circuit 8]: 8 stainless steel plate
 1 hv machine hull [assembler lv]: 2 1x gold cable, 1 hv machine casing, 288 molten polyethylene
-1 integrated logic circuit (chip) [circuit assembler lv]: 1 circuit board, 1 integrated logic circuit (cut wafer), 2 resistor, 2 diode, 2 fine copper wire, 2 tin bolt, 144 molten tin
+1 integrated logic circuit (chip) [circuit assembler lv]: 1 circuit board, 1 integrated logic circuit (cut wafer), 2 resistor, 2 diode, 2 fine copper wire, 2 tin bolt, 72 molten soldering alloy
 1 integrated logic circuit (wafer) [laser engraver mv + red lens]: 1 wafer
-1 integrated processor [circuit assembler mv + cleanroom]: 1 plastic circuit board, 1 central processing unit, 4 resistor, 4 capacitator, 4 transistor, 4 fine red alloy wire, 144 molten tin
+1 integrated processor [circuit assembler mv + cleanroom]: 1 plastic circuit board, 1 central processing unit, 4 resistor, 4 capacitator, 4 transistor, 4 fine red alloy wire, 72 molten soldering alloy
 1 iron dust [macerator ulv]: 1 iron ingot
 1 iron plate [bending machine lv + circuit 1]: 1 iron ingot
 1 iron screw [lathe ulv]: 1 iron bolt
 1 long stainless steel rod [shaped crafting]: 2 stainless steel rod
 1 magnesium dust [macerator ulv]: 1 magnesium ingot
 1 magnetic steel rod [electromagnetic polarizer lv]: 1 steel rod
-1 mainframe [circuit assembler hv + cleanroom]: 2 aluminium frame box, 2 workstation, 12 small coil, 24 capacitator, 16 random access memory chip, 24 1x annealed copper wire, 576 molten tin
+1 mainframe (iv-tier) [circuit assembler hv + cleanroom]: 2 aluminium frame box, 2 workstation, 12 small coil, 24 capacitator, 16 random access memory chip, 24 1x annealed copper wire, 288 molten soldering alloy
 1 mixed metal ingot [assembler lv + circuit 3]: 1 iron plate, 1 bronze plate, 1 zinc plate
 1 monocrystalline silicon boule [blast furnace mv + cupronickel coil + circuit 2]: 32 silicon solar grade (poly si) dust, 1 small gallium arsenide crystal
 1 multipurpose robot arm [shaped crafting]: 2 nether star plate, 1 sensor lens, 1 electric motor (hv), 2 long stainless steel rod, 1 robot arm (hv), 1 electric piston (hv), 1 workstation
 1 mv machine casing [assembler lv + circuit 8]: 8 aluminium plate
 1 mv machine hull [assembler lv]: 2 1x copper cable, 1 mv machine casing, 288 molten polyethylene
-1 nasa workbench [shaped crafting]: 3 multipurpose robot arm, 2 mainframe, 1 display, 2 hard wall (tier 4), 1 advanced assembling machine ii
+1 nasa workbench [shaped crafting]: 3 multipurpose robot arm, 2 mainframe (iv-tier), 1 display, 2 hard wall (tier 4), 1 advanced assembling machine ii
 1 nether star block [chisel]: 1 block of nether star
 1 plastic circuit board (base) [chemical reactor lv]: 1 polyethylene sheet, 4 copper foil, 500 sulfuric acid
 1 plastic circuit board [chemical reactor lv]: 1 plastic circuit board (base), 6 copper foil, 500 sodium persulfate
 1 polyethylene bar [fluid solidifier ulv + ingot mold]: 144 molten polyethylene
 1 polyethylene sheet [fluid solidifier ulv + plate mold]: 144 molten polyethylene
-1 processor assembly [circuit assembler mv + cleanroom]: 1 plastic circuit board, 2 integrated processor, 4 small coil, 8 capacitator, 4 random access memory chip, 8 fine red alloy wire, 288 molten tin
+1 processor assembly (hv-tier) [circuit assembler mv + cleanroom]: 1 plastic circuit board, 2 integrated processor, 4 small coil, 8 capacitator, 4 random access memory chip, 8 fine red alloy wire, 144 molten soldering alloy
 1 quartz sand [macerator ulv]: 1 sand
 1 random access memory chip (wafer) [laser engraver mv + cyan lens]: 1 wafer
 1 raw silicon dust [chemical reactor ulv]: 3 silicon dioxide, 2 magnesium dust
@@ -80,7 +81,7 @@
 1 reinforced glass lens [lathe lv]: 1 reinforced glass plate
 1 reinforced obsidian [assembler mv + circuit 17]: 1 obsidian, 2 dark steel plate, 2 dark iron bars
 1 robot arm (hv) [assembler lv]: 2 electric motor (hv), 1 electric piston (hv), 2 stainless steel rod, 1 advanced circuit, 3 1x gold cable
-1 robot arm (mv) [assembler lv]: 2 electric motor (mv), 1 electric piston (mv), 2 aluminium rod, 1 integrated processor, 3 1x copper cable
+1 robot arm (mv) [assembler lv]: 2 electric motor (mv), 1 electric piston (mv), 2 aluminium rod, 1 good electronic circuit, 3 1x copper cable
 1 rubber sheet [bending machine lv + circuit 1]: 1 rubber bar
 1 sensor lens [shaped crafting + screwdriver]: 2 red alloy ring, 1 diamond lens, 2 advanced circuit, 1 reinforced glass lens, 2 stainless steel screw
 1 silicon solar grade (poly si) plate [bending machine lv + circuit 1]: 1 silicon solar grade (poly si) ingot
@@ -94,7 +95,7 @@
 1 steel gear [extruder mv + gear shape]: 4 steel ingot
 1 steel plate [bending machine lv + circuit 1]: 1 steel ingot
 1 stone dust [macerator ulv]: 1 stone
-1 workstation [circuit assembler mv + cleanroom]: 1 plastic circuit board, 2 processor assembly, 4 diode, 8 random access memory chip, 16 fine electrum wire, 16 blue alloy bolt, 288 molten tin
+1 workstation [circuit assembler mv + cleanroom]: 1 plastic circuit board, 2 processor assembly (hv-tier), 4 diode, 8 random access memory chip, 16 fine electrum wire, 16 blue alloy bolt, 144 molten soldering alloy
 1 zinc plate [bending machine lv + circuit 1]: 1 zinc ingot
 2 1x annealed copper wire [wiremill ulv + circuit 1]: 1 annealed copper ingot
 2 1x copper wire [wiremill ulv + circuit 1]: 1 copper ingot
@@ -167,12 +168,14 @@
 9 diamond plate [cutting machine lv]: 1 block of diamond
 9 nether star plate [cutting machine lv]: 1 nether star block
 9 obsidian dust [macerator ulv]: 1 obsidian
+10 soldering alloy ingot [alloy smelter lv]: 9 tin ingot, 1 antimony ingot
 16 wafer [cutting machine lv]: 1 monocrystalline silicon boule
 32 random access memory chip [cutting machine mv]: 1 random access memory chip (wafer)
 64 wood plank [assembler lv + circuit 2]: 64 wood pulp, 144 refined glue
 144 molten glass [fluid extractor mv]: 1 sand
 144 molten red alloy [fluid extractor lv]: 1 red alloy ingot
 144 molten rubber [fluid extractor lv]: 1 rubber bar
+144 molten soldering alloy [fluid extractor lv]: 1 soldering alloy ingot
 144 molten stainless steel [fluid extractor mv]: 1 stainless steel ingot
 144 molten tin [fluid extractor lv]: 1 tin ingot
 250 ethylene [distillery lv + circuit 10]: 1000 severely steam-cracked light fuel
