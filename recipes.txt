@@ -23,9 +23,12 @@
 1 bronze screw [lathe ulv]: 1 bronze bolt
 1 central processing unit (wafer) [laser engraver mv + white lens + cleanroom]: 1 wafer
 1 clay dust [shaped crafting]: 4 small pile of clay dust
+1 coal dust [macerator ulv]: 1 coal
 1 computer monitor cover [assembler ulv]: 4 aluminium plate, 1 glass pane, 1 glowstone dust, 1 red dye, 1 lime dye, 1 blue dye
 1 conveyor module (hv) [assembler lv]: 2 electric motor (hv), 6 rubber sheet, 1 1x gold cable
 1 conveyor module (mv) [assembler lv]: 2 electric motor (mv), 6 rubber sheet, 1 1x copper cable
+1 dark steel ingot [blast furnace mv + cupronickel coil + circuit 1]: 1 dark steel dust
+1 dark steel plate [bending machine lv + circuit 1]: 1 dark steel ingot
 1 diamond lens [lathe lv]: 1 diamond plate
 1 display [assembler lv]: 1 computer monitor cover, 2 electronic circuit, 1 1x tin cable, 2 iron screw, 144 molten polyethylene
 1 electric motor (hv) [assembler lv]: 1 magnetic steel rod, 2 stainless steel rod, 4 4x electrum wire, 2 2x silver cable
@@ -55,6 +58,7 @@
 1 iron plate [bending machine lv + circuit 1]: 1 iron ingot
 1 iron screw [lathe ulv]: 1 iron bolt
 1 long stainless steel rod [shaped crafting]: 2 stainless steel rod
+1 magnesium dust [macerator ulv]: 1 magnesium ingot
 1 magnetic steel rod [electromagnetic polarizer lv]: 1 steel rod
 1 mainframe [circuit assembler hv + cleanroom]: 2 aluminium frame box, 2 workstation, 12 small coil, 24 capacitator, 16 random access memory chip, 24 1x annealed copper wire, 576 molten tin
 1 mixed metal ingot [assembler lv + circuit 3]: 1 iron plate, 1 bronze plate, 1 zinc plate
@@ -71,8 +75,10 @@
 1 processor assembly [circuit assembler mv + cleanroom]: 1 plastic circuit board, 2 integrated processor, 4 small coil, 8 capacitator, 4 random access memory chip, 8 fine red alloy wire, 288 molten tin
 1 quartz sand [macerator ulv]: 1 sand
 1 random access memory chip (wafer) [laser engraver mv + cyan lens]: 1 wafer
+1 raw silicon dust [chemical reactor ulv]: 3 silicon dioxide, 2 magnesium dust
 1 red alloy ingot [alloy smelter lv]: 1 copper ingot, 4 redstone
 1 reinforced glass lens [lathe lv]: 1 reinforced glass plate
+1 reinforced obsidian [assembler mv + circuit 17]: 1 obsidian, 2 dark steel plate, 2 dark iron bars
 1 robot arm (hv) [assembler lv]: 2 electric motor (hv), 1 electric piston (hv), 2 stainless steel rod, 1 advanced circuit, 3 1x gold cable
 1 robot arm (mv) [assembler lv]: 2 electric motor (mv), 1 electric piston (mv), 2 aluminium rod, 1 integrated processor, 3 1x copper cable
 1 rubber sheet [bending machine lv + circuit 1]: 1 rubber bar
@@ -83,6 +89,7 @@
 1 small stainless steel gear [extruder mv + small gear shape]: 1 stainless steel ingot
 1 stainless steel plate [bending machine lv + circuit 1]: 1 stainless steel ingot
 1 stainless steel screw [lathe ulv]: 1 stainless steel bolt
+1 steel dust [macerator ulv]: 1 steel ingot
 1 steel fluid pipe [extruder mv + normal pipe shape]: 3 steel ingot
 1 steel gear [extruder mv + gear shape]: 4 steel ingot
 1 steel plate [bending machine lv + circuit 1]: 1 steel ingot
@@ -99,6 +106,7 @@
 2 blue alloy rod [extruder lv + rod shape]: 1 blue alloy ingot
 2 bronze rod [extruder lv + rod shape]: 1 bronze ingot
 2 cupronickel ingot [alloy smelter lv]: 1 copper ingot, 1 nickel ingot
+2 dark steel rod [extruder mv + rod shape]: 1 dark steel ingot
 2 electrum dust [mixer ulv + circuit 1]: 1 gold dust, 1 silver dust
 2 electrum ingot [alloy smelter lv]: 1 gold ingot, 1 silver ingot
 2 energetic alloy rod [extruder lv + rod shape]: 1 energetic alloy ingot
@@ -112,12 +120,15 @@
 2 tin rod [extruder lv + rod shape]: 1 tin ingot
 2x silver wire [wiremill ulv + circuit 2]: 1 silver ingot
 3 conductive iron dust [mixer ulv + circuit 2]: 1 redstone alloy dust, 1 iron dust, 1 silver dust
+3 dark steel dust [mixer ulv + circuit 2]: 1 electrical steel dust, 1 coal dust, 1 obsidian dust
+3 electrical steel dust [mixer ulv + circuit 2]: 1 steel dust, 1 coal dust, 1 raw silicon dust
 3 energetic alloy dust [mixer ulv + circuit 2]: 1 conductive iron dust, 1 gold dust, 1 black steel dust
 3 redstone alloy dust [mixer ulv + circuit 2]: 1 redstone, 1 raw silicon dust, 1 coal dust
 4 aluminium foil [bending machine lv + circuit 10]: 1 aluminium ingot
 4 bronze ingot [alloy smelter lv]: 3 copper ingot, 1 tin ingot
 4 bronze ring [extruder mv + ring shape]: 1 bronze ingot
 4 copper foil [bending machine lv + circuit 10]: 1 copper ingot
+4 dark iron bars [assembler mv + circuit 3]: 3 dark steel rod
 4 gold foil [bending machine lv + circuit 10]: 1 gold ingot
 4 red alloy ring [extruder mv + ring shape]: 1 red alloy ingot
 4 reinforced glass [alloy smelter ulv]: 1 advanced alloy, 3 glass
@@ -155,6 +166,7 @@
 8 vacuum tube [assembler ulv + circuit 5]: 4 glass tube, 4 1x annealed copper wire, 4 steel rod, 72 molten red alloy
 9 diamond plate [cutting machine lv]: 1 block of diamond
 9 nether star plate [cutting machine lv]: 1 nether star block
+9 obsidian dust [macerator ulv]: 1 obsidian
 16 wafer [cutting machine lv]: 1 monocrystalline silicon boule
 32 random access memory chip [cutting machine mv]: 1 random access memory chip (wafer)
 64 wood plank [assembler lv + circuit 2]: 64 wood pulp, 144 refined glue
