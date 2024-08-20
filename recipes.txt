@@ -95,7 +95,7 @@
 1 plastic circuit board (base) [chemical reactor lv]: 1 polyethylene sheet, 4 copper foil, 500 sulfuric acid
 1 plastic circuit board [chemical reactor lv]: 1 plastic circuit board (base), 6 copper foil, 500 sodium persulfate
 1 polyethylene bar [fluid solidifier ulv + ingot mold]: 144 molten polyethylene
-1 polyethylene sheet [fluid solidifier ulv + plate mold]: 144 molten polyethylene
+1 polyethylene sheet [extruder lv + plate shape]: 1 polyethylene bar
 1 processor assembly (hv-tier) [circuit assembler mv + cleanroom]: 1 plastic circuit board, 2 integrated processor, 4 small coil, 8 capacitator, 4 random access memory chip, 8 fine red alloy wire, 144 molten soldering alloy
 1 pulsating iron ingot [blast furnace mv + cupronickel coil + circuit 1]: 1 pulsating iron dust
 1 pulsating iron plate [bending machine lv + circuit 1]: 1 pulsating iron ingot
@@ -220,3 +220,11 @@
 1000 iron iii chloride [chemical reactor lv]: 1 iron dust, 3 empty cell, 3000 hydrochloric acid
 1500 molten polyethylene [chemical reactor lv + circuit 1]: 1 ethylene cell, 7000 oxygen gas
 2304 wet concrete [mixer lv + circuit 2]: 2 calcite dust, 1 stone dust, 1 clay dust, 1 quartz sand, 2000 water
+1 robot arm (lv) [assembler lv]: 2 electric motor (lv), 1 electric piston (lv), 2 steel rod, 1 electronic circuit, 3 1x tin cable
+1 electric piston (lv) [assembler lv]: 1 electric motor (lv), 3 steel plate, 2 steel rod, 2 1x tin cable, 1 small steel gear
+1 small steel gear [extruder mv + small gear shape]: 1 steel ingot
+1 low voltage regulator [shaped crafting]: 4 electronic circuit, 1 item filter, 2 robot arm (lv), 1 lv machine hull, 1 chest
+1 item filter [assembler lv + circuit 1]: 4 raw carbon mesh, 16 zinc foil
+1 raw carbon mesh [assembler lv + circuit 2]: 2 raw carbon fibre
+1 raw carbon fibre [autoclave lv]: 4 carbon dust, 36 molten polyethylene
+4 zinc foil [bending machine lv + circuit 10]: 1 zinc ingot

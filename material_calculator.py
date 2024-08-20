@@ -73,7 +73,7 @@ def search_recipes(quantity_to_search, item_to_search):
 
 
 # ask for recipe and quantity
-item_to_craft = str(input('\nInput item to craft: '))
+item_to_craft = str(input('\nInput item to craft: ')).lower()
 try:
     quantity_to_craft = float(input('Input quantity: '))
 
