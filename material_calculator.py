@@ -3,17 +3,19 @@ from functools import reduce
 
 
 class Item:
-    def __init__(self, quantity, actual_quantity, name, place, materials):
+    def __init__(self, quantity, actual_quantity, name, place, materials, indent_level=0):
         self.quantity = quantity
         self.actual_quantity = actual_quantity
         self.name = name
         self.place = place
         self.materials = materials
+        self.indent_level = indent_level
 
     def __str__(self):
-        return (f'{int(self.quantity)} {f'(Actual required quantity: {int(self.actual_quantity)}) ' 
-                * (self.quantity != self.actual_quantity)}{self.name} {self.place}: '
-                f'{', '.join(' '.join(map(str, m)) for m in self.materials)}')
+        indent = '  ' * self.indent_level
+        return (f'{indent}{int(self.quantity)} {f"(Actual required quantity: {int(self.actual_quantity)}) "
+                                                * (self.quantity != self.actual_quantity)}{self.name} {self.place}: '
+                f'{", ".join(" ".join(map(str, m)) for m in self.materials)}')
 
 
 class RawItem:
@@ -23,12 +25,12 @@ class RawItem:
 
 
 # search the base recipe
-def search_recipes(quantity_to_search, item_to_search):
+def search_recipes(quantity_to_search, item_to_search, indent_level=0):
     raw_materials_list = []
-    stack = [(quantity_to_search, item_to_search)]
+    stack = [(quantity_to_search, item_to_search, indent_level)]
 
     while stack:
-        quantity, item = stack.pop()
+        quantity, item, current_indent = stack.pop()
         is_raw = True
 
         with open('recipes.txt', 'r') as file:
@@ -58,12 +60,12 @@ def search_recipes(quantity_to_search, item_to_search):
                 for material_quantity in materials:
                     material_quantity[0] = int(float(material_quantity[0]) * new_quantity / base_quantity)
 
-                # searches materials recipes
-                for material_quantity in materials:
-                    stack.append((material_quantity[0], ' '.join(material_quantity[1:])))
-
                 # prints the item
-                print(Item(new_quantity, quantity, name, place, materials))
+                print(Item(new_quantity, quantity, name, place, materials, current_indent))
+
+                # searches materials recipes with increased indentation
+                for material_quantity in materials:
+                    stack.append((material_quantity[0], ' '.join(material_quantity[1:]), current_indent + 1))
 
         if is_raw:
             item = RawItem(quantity, item)
@@ -83,7 +85,6 @@ try:
 except ValueError:
     print("\nPlease enter a valid number (1 ~ 999 999 999)")
     sys.exit(1)
-
 
 # prints crafting process
 print('\nCrafting process:')

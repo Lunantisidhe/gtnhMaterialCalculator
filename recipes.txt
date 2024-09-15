@@ -47,6 +47,7 @@
 1 electric motor (lv) [assembler lv]: 1 magnetic iron rod, 2 iron rod, 4 1x copper wire, 2 1x tin cable
 1 electric motor (mv) [assembler lv]: 1 magnetic steel rod, 2 aluminium rod, 4 2x cupronickel wire, 2 1x copper cable
 1 electric piston (hv) [assembler lv]: 1 electric motor (hv), 3 stainless steel plate, 2 stainless steel rod, 2 1x gold cable, 1 small stainless steel gear
+1 electric piston (lv) [assembler lv]: 1 electric motor (lv), 3 steel plate, 2 steel rod, 2 1x tin cable, 1 small steel gear
 1 electric piston (mv) [assembler lv]: 1 electric motor (mv), 3 aluminium plate, 2 aluminium rod, 2 1x copper cable, 1 small aluminium gear
 1 electric pump (mv) [assembler lv]: 1 electric motor (mv), 2 rubber ring, 1 bronze rotor, 1 bronze screw, 1 1x copper cable, 1 steel fluid pipe
 1 electronic circuit [circuit assembler lv]: 1 circuit board, 2 resistor, 2 1x red alloy wire, 2 vacuum tube, 72 molten soldering alloy
@@ -73,8 +74,10 @@
 1 iron dust [macerator ulv]: 1 iron ingot
 1 iron plate [bending machine lv + circuit 1]: 1 iron ingot
 1 iron screw [lathe ulv]: 1 iron bolt
+1 item filter [assembler lv + circuit 1]: 4 raw carbon mesh, 16 zinc foil
 1 long stainless steel rod [shaped crafting]: 2 stainless steel rod
 1 low voltage chest buffer [shaped crafting]: 1 chest, 1 lv machine hull, 1 conveyor module (lv), 1 electronic circuit
+1 low voltage regulator [shaped crafting]: 4 electronic circuit, 1 item filter, 2 robot arm (lv), 1 lv machine hull, 1 chest
 1 lux essentia [arcane alembic]: 1 torch
 1 lv machine casing [assembler lv + circuit 8]: 8 steel plate
 1 lv machine hull [assembler lv]: 2 1x tin cable, 1 lv machine casing, 288 molten polyethylene
@@ -82,6 +85,7 @@
 1 magnetic iron rod [electromagnetic polarizer lv]: 1 iron rod
 1 magnetic steel rod [electromagnetic polarizer lv]: 1 steel rod
 1 mainframe (iv-tier) [circuit assembler hv + cleanroom]: 2 aluminium frame box, 2 workstation, 12 small coil, 24 capacitator, 16 random access memory chip, 24 1x annealed copper wire, 288 molten soldering alloy
+1 microchip (tier 1) [circuit assembler mv + circuit 1]: 1 plastic circuit board, 1 good electronic circuit, 4 transistor, 4 electrum foil, 72 molten soldering alloy
 1 mixed metal ingot [assembler lv + circuit 3]: 1 iron plate, 1 bronze plate, 1 zinc plate
 1 monocrystalline silicon boule [blast furnace mv + cupronickel coil + circuit 2]: 32 silicon solar grade (poly si) dust, 1 small gallium arsenide crystal
 1 multipurpose robot arm [shaped crafting]: 2 nether star plate, 1 sensor lens, 1 electric motor (hv), 2 long stainless steel rod, 1 robot arm (hv), 1 electric piston (hv), 1 workstation
@@ -101,11 +105,14 @@
 1 pulsating iron plate [bending machine lv + circuit 1]: 1 pulsating iron ingot
 1 quartz sand [macerator ulv]: 1 sand
 1 random access memory chip (wafer) [laser engraver mv + cyan lens]: 1 wafer
+1 raw carbon fibre [autoclave lv]: 4 carbon dust, 36 molten polyethylene
+1 raw carbon mesh [assembler lv + circuit 2]: 2 raw carbon fibre
 1 raw silicon dust [chemical reactor ulv]: 3 silicon dioxide, 2 magnesium dust
 1 red alloy ingot [alloy smelter lv]: 1 copper ingot, 4 redstone
 1 reinforced glass lens [lathe lv]: 1 reinforced glass plate
 1 reinforced obsidian [assembler mv + circuit 17]: 1 obsidian, 2 dark steel plate, 2 dark iron bars
 1 robot arm (hv) [assembler lv]: 2 electric motor (hv), 1 electric piston (hv), 2 stainless steel rod, 1 advanced circuit, 3 1x gold cable
+1 robot arm (lv) [assembler lv]: 2 electric motor (lv), 1 electric piston (lv), 2 steel rod, 1 electronic circuit, 3 1x tin cable
 1 robot arm (mv) [assembler lv]: 2 electric motor (mv), 1 electric piston (mv), 2 aluminium rod, 1 good electronic circuit, 3 1x copper cable
 1 rubber sheet [bending machine lv + circuit 1]: 1 rubber bar
 1 sensor lens [shaped crafting + screwdriver]: 2 red alloy ring, 1 diamond lens, 2 advanced circuit, 1 reinforced glass lens, 2 stainless steel screw
@@ -113,6 +120,7 @@
 1 silver dust [macerator ulv]: 1 silver ingot
 1 small aluminium gear [extruder mv + small gear shape]: 1 aluminium ingot
 1 small stainless steel gear [extruder mv + small gear shape]: 1 stainless steel ingot
+1 small steel gear [extruder mv + small gear shape]: 1 steel ingot
 1 stainless steel plate [bending machine lv + circuit 1]: 1 stainless steel ingot
 1 stainless steel screw [lathe ulv]: 1 stainless steel bolt
 1 steel dust [macerator ulv]: 1 steel ingot
@@ -160,6 +168,7 @@
 4 bronze ring [extruder mv + ring shape]: 1 bronze ingot
 4 copper foil [bending machine lv + circuit 10]: 1 copper ingot
 4 dark iron bars [assembler mv + circuit 3]: 3 dark steel rod
+4 electrum foil [bending machine lv + circuit 10]: 1 electrum ingot
 4 glass dust [mixer ulv + circuit 2]: 1 small pile of flint dust, 4 quartz sand
 4 gold foil [bending machine lv + circuit 10]: 1 gold ingot
 4 red alloy ring [extruder mv + ring shape]: 1 red alloy ingot
@@ -170,10 +179,11 @@
 4 small pile of flint dust [shaped crafting]: 1 flint dust
 4 steel ring [extruder mv + ring shape]: 1 steel ingot
 4 thin polyethylene sheet [bending machine lv + circuit 10]: 1 polyethylene bar
+4 zinc foil [bending machine lv + circuit 10]: 1 zinc ingot
 5 black bronze dust [mixer ulv + circuit 1]: 3 copper dust, 2 electrum dust
 5 black steel dust [mixer ulv + circuit 1]: 1 black bronze dust, 1 nickel dust, 3 steel dust
 6 any wood planks [cutting machine ulv]: 1 any wood
-6 diode [assembler + circuit 4]: 4 fine annealed copper wire, 1 small pile of gallium dust, 144 molten polyethylene
+6 diode [assembler lv + circuit 4]: 4 fine annealed copper wire, 1 small pile of gallium arsenide dust, 144 molten polyethylene
 6 torch [assembler ulv]: 1 stick, 1 coal powder
 6 transistor [assembler lv + circuit 2]: 1 silicon solar grade (poly si) plate, 8 fine tin wire, 144 molten polyethylene
 6 wood pulp [macerator ulv]: 1 any wood
@@ -220,11 +230,3 @@
 1000 iron iii chloride [chemical reactor lv]: 1 iron dust, 3 empty cell, 3000 hydrochloric acid
 1500 molten polyethylene [chemical reactor lv + circuit 1]: 1 ethylene cell, 7000 oxygen gas
 2304 wet concrete [mixer lv + circuit 2]: 2 calcite dust, 1 stone dust, 1 clay dust, 1 quartz sand, 2000 water
-1 robot arm (lv) [assembler lv]: 2 electric motor (lv), 1 electric piston (lv), 2 steel rod, 1 electronic circuit, 3 1x tin cable
-1 electric piston (lv) [assembler lv]: 1 electric motor (lv), 3 steel plate, 2 steel rod, 2 1x tin cable, 1 small steel gear
-1 small steel gear [extruder mv + small gear shape]: 1 steel ingot
-1 low voltage regulator [shaped crafting]: 4 electronic circuit, 1 item filter, 2 robot arm (lv), 1 lv machine hull, 1 chest
-1 item filter [assembler lv + circuit 1]: 4 raw carbon mesh, 16 zinc foil
-1 raw carbon mesh [assembler lv + circuit 2]: 2 raw carbon fibre
-1 raw carbon fibre [autoclave lv]: 4 carbon dust, 36 molten polyethylene
-4 zinc foil [bending machine lv + circuit 10]: 1 zinc ingot
